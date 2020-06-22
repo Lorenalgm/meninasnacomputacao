@@ -16,6 +16,10 @@ body {
   background-color: #171941;
 }
 
+:root{
+  --roxo: #9C578D;
+}
+
 
 .index-page .squares {
   animation: move-left-right 1s infinite;
@@ -93,3 +97,53 @@ body {
   opacity: 0.1;
 }
 
+.wrapper {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.title{
+  text-align: center;
+  color: #ffff;
+}
+
+.title h1{
+  font-size: 3rem;
+  line-height: 1px;
+}
+
+.title h2{
+  font-weight: normal;
+  margin-bottom: 2rem;
+}
+
+button{
+  position: relative;
+  cursor: pointer;
+  background-color: transparent;
+  border: solid 1px;
+  border-radius: 7px;
+  width: 15rem;
+  height: 3rem;
+  font-size: 20px;
+  border-color: #ffff;
+  color: #ffff;
+  transition: 2ms;
+}
+
+button:hover{
+  background-color: var(--roxo);
+  opacity: 90%;
+}
+
+@media only screen and (max-width: 600px){
+  .square6,.square1,.square5,.square4 {
+    display: none;
+  }
+
+  .title h1{
+    line-height: normal;
+  }
+}
