@@ -20,7 +20,44 @@ body {
   --roxo: #9C578D;
 }
 
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 5%;
+  margin-right: 5%;
+  height: 5em;
+}
 
+.logo{
+  display: flex;
+  align-items: center;
+  z-index: 1;
+  color: #ffff;
+  font-size: 10px;
+}
+
+.header img{
+  margin-right: 0.7em;
+  height: 7em;
+  z-index: 1;
+}
+
+.header ul{
+  display: flex;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.header ul li{
+  color: #ffff;
+  list-style: none;
+  margin-left: 2em;
+}
+.header ul li:hover{
+  background-color: var(--roxo);
+  opacity: 90%;
+}
 .index-page .squares {
   animation: move-left-right 1s infinite;
   background: #ba54f5;
