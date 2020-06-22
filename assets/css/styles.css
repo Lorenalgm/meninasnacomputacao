@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 @keyframes move-left-right {
   0% {
     transform: translateX(-10px);
@@ -12,7 +14,7 @@
 
 body {
   margin: 0;
-  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
   background-color: #171941;
 }
 
@@ -27,6 +29,7 @@ body {
   margin-left: 5%;
   margin-right: 5%;
   height: 5em;
+  flex-wrap: wrap;
 }
 
 .logo{
@@ -47,6 +50,7 @@ body {
   display: flex;
   z-index: 1;
   cursor: pointer;
+  text-align: center;
 }
 
 .header ul li{
@@ -175,7 +179,47 @@ button:hover{
   opacity: 90%;
 }
 
+section{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+section h3{
+  font-size: 2.4rem;
+  color: var(--roxo);
+  margin: 0em;
+}
+
+section p{
+  color: #ffff;
+  font-size: 1.2rem;
+  line-height: 2.4rem;
+}
+
+.secao1 img,.secao2 img,.secao4 img{
+  height: 25em;
+}
+
+.secao3 {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  color: var(--roxo);
+  font-size: 2rem;
+}
+
+.secao3 span{
+  color: #ffff;
+}
+
 @media only screen and (max-width: 600px){
+  .header{
+    justify-content: center;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
   .square6,.square1,.square5,.square4 {
     display: none;
   }
