@@ -220,11 +220,30 @@ section p{
     margin-right: 0;
   }
 
-  .square6,.square1,.square5,.square4 {
+  .squares {
     display: none;
+  }
+
+  .header ul{
+    padding: 0;
   }
 
   .title h1{
     line-height: normal;
+  }
+
+  section {
+    text-align: center;
+  }
+
+  section p{
+    font-size: 1rem;
+  }
+  .secao1 img,.secao2 img,.secao4 img{
+    height: 15em;
+  }
+
+  .secao2{
+   flex-direction: column-reverse; 
   }
 }
