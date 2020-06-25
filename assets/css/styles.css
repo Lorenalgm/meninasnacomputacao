@@ -54,9 +54,14 @@ body {
 }
 
 .header ul li{
-  color: #ffff;
+  color: #FFFF;
   list-style: none;
   margin-left: 2em;
+}
+
+li a{
+  color:#FFFF;
+  text-decoration:none;
 }
 .header ul li:hover{
   background-color: var(--roxo);
