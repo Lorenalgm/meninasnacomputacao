@@ -218,6 +218,54 @@ section p{
   color: #ffff;
 }
 
+.contatos{
+  display: flex;
+  justify-content: center;
+  margin-top: 4em;
+  margin-bottom: 4em;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+  z-index: 1;
+  color: #ffff;
+  font-size: 10px;
+}
+
+.logo img{
+  margin-right: 0.7em;
+  height: 7em;
+}
+
+.redes-sociais{
+  color: #FFFF;
+  margin-left: 2em;
+  line-height: 0;
+  text-align: center;
+}
+
+.redes-sociais .redes i{
+  height: 20px;
+  color: #FFFF;
+  width: 30px;
+  cursor: pointer;
+}
+
+.credito{
+  text-align: center;
+  color: #FFFF;
+}
+
+.credito h4{
+  font-weight: normal;  
+}
+
+.credito h4 a{
+  color: #FFFF;
+  font-weight: bold;
+}
+
 @media only screen and (max-width: 600px){
   .header{
     justify-content: center;
