@@ -5,6 +5,10 @@ body {
     font-family: "Roboto", sans-serif;
     background-color: #171941;
   }
+
+html{
+  scroll-behavior: smooth;
+}
   
   :root{
     --roxo: #9C578D;
