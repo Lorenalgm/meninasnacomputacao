@@ -71,7 +71,7 @@ html{
     font-size: 20px;
     border-color: #ffff;
     color: #ffff;
-    transition: 2ms;
+    transition: all .2s ease-in-out;
   }
   
   button:hover{
@@ -81,9 +81,10 @@ html{
 
   .contatos{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     margin-top: 4em;
     margin-bottom: 4em;
+    align-items: center;
   }
   
   .logo{
